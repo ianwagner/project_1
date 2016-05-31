@@ -8,7 +8,7 @@ void ofApp::setup(){
     circ = false;
     
 // load flower class
-    Flower::setup();
+    flowers.setup();
 
 // setup box2D physics
     box2d.init();
